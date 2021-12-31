@@ -1,10 +1,12 @@
 #Complete the function to calculate how many hours and minutes are passed since midnight.
-def hours_minutes(secs):
+def hours_minutes(seconds):
   
-  return None
+  hours = seconds/60/60
+  minutes = seconds/60
+  return int(hours),int(minutes)
 
 
 
 
 #Invoke the funtion and pass any interger as its argument.
-print(hours_minutes())
+print(hours_minutes(3900))

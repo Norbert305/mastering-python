@@ -1,5 +1,5 @@
+# your code here
 def square(num):
-    return num ** 2
+    return num ** 2    
+print(square(47))
 
-print square(2)
-print square(3)
